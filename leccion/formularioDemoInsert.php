@@ -10,16 +10,24 @@
 <body>
   
 
-<h2>INSERTAR OBJETO DEMO</h2>
+<h2>NUEVO PERFIL</h2>
 
 <form action="guardarDemo.php" method="post">
 <p>
-
 Nombre: <input type="text" name="nombre" autofocus required />
+</p>
+<p>
+Tipo: <input type="text" name="tipo" autofocus required />
+</p>
+<p>
+Fecha Nacimiento: <input type="text" name="fechanacimiento" autofocus required />
+</p>
+<p>
+Foto: <input type="text" name="foto" autofocus required />
 </p>
 
 <a href="index.php">Cancelar</a>
-<input type="submit" value="Guardar Objeto Demo" />
+<input type="submit" value="Guardar Nuevo Perfil" />
 </form>
  
 </body>

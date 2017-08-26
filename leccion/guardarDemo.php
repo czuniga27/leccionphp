@@ -10,13 +10,16 @@
 <body>
   
 <?php
-$valor=$_POST["nombre"];
+$nombre=$_POST["nombre"];
+$tipo=$_POST["tipo"];
+$fechanacimiento=$_POST["fechanacimiento"];
+$foto=$_POST["foto"];
 
 // echo 'hola'.htmlspecialchars($valor).'!';
 include_once("DemoCollector.php");
 
 $DemoCollectorObj = new DemoCollector();
-$DemoCollectorObj->createDemo($valor);
+$DemoCollectorObj->createDemo($nombre,$tipo,$fechanacimiento,$foto);
 
 echo "Valor Agregado </br>";
 	

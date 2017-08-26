@@ -20,7 +20,7 @@ include_once("DemoCollector.php");
 $id =1;
 $DemoCollectorObj = new DemoCollector();
 
-echo "<a href='formularioDemoInsert.php'>NUEVO OBJETO</a>";
+echo "<a href='formularioDemoInsert.php'>NUEVO PERFIL</a>";
 ?>
 
 <?php
